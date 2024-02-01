@@ -59,7 +59,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="BreakOut"
-              description="Un jeu style arcade casse-brique classique réalisé en JavaScript. Détruisez les briques avec votre paddle. Jouez dès maintenant !"
+              description="Un jeu style arcade casse-briques classique réalisé en JavaScript. Détruisez les briques avec votre paddle. Jouez dès maintenant !"
               ghLink="https://github.com/Tismaa78/BreakOut"
               demoLink="https://tismaa78.github.io/BreakOut/"
             />
