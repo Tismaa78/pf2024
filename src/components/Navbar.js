@@ -38,7 +38,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="/home" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" style={{ width: '200px', height: 'auto' }} />
         </Navbar.Brand>
         <Navbar.Toggle
