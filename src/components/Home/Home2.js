@@ -19,7 +19,7 @@ function Home2() {
               LAISSEZ MOI <span className="purple"> ME </span> PRESENTER
             </h1>
             <p className="home-about-body">
-            Je m'appelle Mathis Roussel et je suis actuellement en première année de BTS SIO section SLAM au Lycée Jean Vilar de Plaisir. Mes spécialités sont le développement et la programmation.
+            Je m'appelle Mathis Roussel et je suis actuellement en deuxième années de BTS SIO section SLAM au Lycée Jean Vilar de Plaisir. Mes spécialités sont le développement et la programmation.
               <br />
               <br />Je maîtrise relativement biens les classiques comme
               <i>
