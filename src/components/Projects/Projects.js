@@ -8,6 +8,9 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Crypto from "../../Assets/Projects/Crypto.png";
+import Lavage from "../../Assets/Projects/lavage.png";
+import Basket from "../../Assets/Projects/basket.png";
 
 function Projects() {
   return (
@@ -40,6 +43,17 @@ function Projects() {
               description="Dans le cadre de ma première année de BTS SIO, j'ai dû effectuer un stage de 6 semaines dans l'entreprise KONTRON TRANSPORTATION. Durant ce stage, ma mission a été de créer un mini logiciel servant à analyser et trier les données d'un document Excel, car l'entreprise doit rendre un compte rendu mensuel du système de sécurité de leurs PC à la SNCF."
               ghLink="https://github.com/Tismaa78/PACS_SNCF"
               demoLink="https://youtu.be/xSDuEdvIUFU"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Lavage}
+              isBlog={false}
+              title="Lavage Auto"
+              description="Site web pour une station de lavage permettant la prise d'information et la prise de rendez-vous."
+              ghLink="https://tismaa78.github.io/Crypto/"
+              demoLink="https://github.com/Tismaa78/Crypto"      
             />
           </Col>
 
@@ -86,6 +100,30 @@ function Projects() {
               demoLink="https://tismaa78.github.io/Jeu-De-Dame/"      
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Crypto}
+              isBlog={false}
+              title="Crypto"
+              description="Site web retracant le cour actuelle du top 25 des crypto-monnaie en terme de tendances, ce projet JavaScript fait un clin d'oeil à ma veille technologique sur le sujet de la blockchain et des cryto-monnaie"
+              ghLink="https://github.com/Tismaa78/Crypto"
+              demoLink="https://tismaa78.github.io/Crypto/"      
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Basket}
+              isBlog={false}
+              title="Basket "
+              description="Un jeu panier de basket classique réalisé en JavaScript. Marquez des paniers. Jouez dès maintenant !"
+              ghLink="https://github.com/Tismaa78/basket"
+              demoLink="https://tismaa78.github.io/basket/"      
+            />
+          </Col>
+
+
         </Row>
       </Container>
     </Container>
