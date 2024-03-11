@@ -39,7 +39,12 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" style={{ width: '200px', height: 'auto' }} />
+          <img
+            src={logo}
+            className="img-fluid logo"
+            alt="brand"
+            style={{ width: "200px", height: "auto" }}
+          />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -78,7 +83,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projets
+                Projets & Stages
               </Nav.Link>
             </Nav.Item>
 
@@ -102,6 +107,17 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            {/* Nouvelle catégorie "stage" 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/stage"
+                onClick={() => updateExpanded(false)}
+              >
+                Stage
+              </Nav.Link>
+            </Nav.Item>
+*/}
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/Tismaa78/pf2024.git"

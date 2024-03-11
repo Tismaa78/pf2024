@@ -18,10 +18,11 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Mes travaux  <strong className="purple">récents </strong>
+          Mes Stages
+          <strong className="purple"> et Projets Récents </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Vous trouverez ci-dessous mes projets récents.
+        Dans le cadre de mes 2 années de BTS SIO, j'ai dû effectuer un stage de 6 semaines et un second stage de 7 semaines dans l'entreprise KONTRON TRANSPORTATION. Durant le premier stage, ma mission a été de créer un mini logiciel servant à analyser et trier les données d'un document Excel, car l'entreprise doit rendre un compte rendu mensuel du système de sécurité de leurs PC à la SNCF. Il sert donc à simplifier le travail de la personne qui s'occupe du compte-rendu. La deuxième mission qui m'a été attribuée durant mon second stage a été la création de scripts afin d'automatiser l'alimentation d'une liste SharePoint par un fichier Excel qui change tous les jours.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -52,8 +53,8 @@ function Projects() {
               isBlog={false}
               title="Lavage Auto"
               description="Site web pour une station de lavage permettant la prise d'information et la prise de rendez-vous."
-              ghLink="https://tismaa78.github.io/Crypto/"
-              demoLink="https://github.com/Tismaa78/Crypto"      
+              ghLink="https://github.com/Tismaa78/DidiLavage"
+              demoLink="https://tismaa78.github.io/DidiLavage/"      
             />
           </Col>
 
