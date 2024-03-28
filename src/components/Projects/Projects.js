@@ -11,6 +11,15 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import Crypto from "../../Assets/Projects/Crypto.png";
 import Lavage from "../../Assets/Projects/lavage.png";
 import Basket from "../../Assets/Projects/basket.png";
+import Musique from "../../Assets/Projects/GestionMs.png";
+import Projet from "../../Assets/Projects/projet.png";
+
+import GMusique1 from "../../Assets/Projects/Gestionmusicac.png";
+import GMusique2 from "../../Assets/Projects/Gestionmusicadmin.png";
+import GMusique3 from "../../Assets/Projects/Gestionmusicartiste.png";
+import GMusique4 from "../../Assets/Projects/Gestionmusiquebdd.png";
+
+
 
 function Projects() {
   return (
@@ -60,6 +69,18 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={Projet}
+              isBlog={false}
+              title="ThrowGaming"
+              description="Projet réalisé lors d'un travail de groupe en utilisant PHP et symfony, cette application web est alimenter par une base de données."
+              ghLink="https://github.com/Tismaa78/E4_Throwgaming"
+              demoLink="https://youtu.be/5a3wfZl8h7s"      
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={editor}
               isBlog={false}
               title="Site web pour un ostéopathe"
@@ -90,6 +111,19 @@ function Projects() {
               demoLink="https://tismaa78.github.io/OlympiqueDeMarseille/" 
             />
           </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Musique}
+              isBlog={false}
+              title="Gestion Musique"
+              description="Application web crée lors d'un projet de cours en lien avec une base de données, en utilisant PHP et symfony"
+              ghLink="https://github.com/Tismaa78/GestionMusique"
+              demoLink="https://youtu.be/-FwvSQZhqak" 
+            />
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
