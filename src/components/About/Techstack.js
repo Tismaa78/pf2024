@@ -47,7 +47,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -55,7 +55,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
