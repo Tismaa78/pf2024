@@ -141,7 +141,7 @@ function Projects() {
               imgPath={Crypto}
               isBlog={false}
               title="Crypto"
-              description="Site web retracant le cour actuelle du top 25 des crypto-monnaie en terme de tendances, ce projet JavaScript fait un clin d'oeil à ma veille technologique sur le sujet de la blockchain et des cryto-monnaie"
+              description="API retracant le cour actuelle du top 25 des crypto-monnaie en terme de tendances, ce projet JavaScript fait un clin d'oeil à ma veille technologique sur le sujet de la blockchain et des cryto-monnaie"
               ghLink="https://github.com/Tismaa78/Crypto"
               demoLink="https://tismaa78.github.io/Crypto/"      
             />
@@ -152,7 +152,7 @@ function Projects() {
               imgPath={Basket}
               isBlog={false}
               title="Basket "
-              description="Un jeu panier de basket classique réalisé en JavaScript. Marquez des paniers. Jouez dès maintenant !"
+              description="Un jeu panier de basket classique réalisé en HTML et en JavaScript. Marquez des paniers. Jouez dès maintenant !"
               ghLink="https://github.com/Tismaa78/basket"
               demoLink="https://tismaa78.github.io/basket/"      
             />
